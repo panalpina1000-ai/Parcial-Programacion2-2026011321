@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        EstrategiaComision estrategia = new ComisionPersonalizada();
+        EstrategiaComision estrategia = new ComisionEstandar();
 
         Vendedor vendedor = new Vendedor(
                 "Ruben",
